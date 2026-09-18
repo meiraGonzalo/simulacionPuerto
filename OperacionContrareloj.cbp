@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OperacionContrareloj" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OperacionContrareloj" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OperacionContrareloj" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu/menu.h" />
+		<Unit filename="ranking/ranking.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ranking/ranking.h" />
+		<Unit filename="simulacion/Operaciones/operaciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulacion/Operaciones/operaciones.h" />
+		<Unit filename="simulacion/ProcesosAutomaticos/automatico.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulacion/ProcesosAutomaticos/automatico.h" />
+		<Unit filename="simulacion/bibliotecas/nodo.h" />
+		<Unit filename="simulacion/bibliotecas/tdaArbol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulacion/bibliotecas/tdaArbol.h" />
+		<Unit filename="simulacion/bibliotecas/tdaCola.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulacion/bibliotecas/tdaCola.h" />
+		<Unit filename="simulacion/bibliotecas/tdaLista.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulacion/bibliotecas/tdaLista.h" />
+		<Unit filename="simulacion/bibliotecas/tdaPila.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulacion/bibliotecas/tdaPila.h" />
+		<Unit filename="simulacion/bibliotecas/tdaVector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulacion/bibliotecas/tdaVector.h" />
+		<Unit filename="simulacion/configuracion/configuracion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulacion/configuracion/configuracion.h" />
+		<Unit filename="simulacion/entidades/entidades.h" />
+		<Unit filename="simulacion/escenario/escenario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulacion/escenario/escenario.h" />
+		<Unit filename="simulacion/funciones/funciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulacion/funciones/funciones.h" />
+		<Unit filename="simulacion/simulacion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulacion/simulacion.h" />
+		<Unit filename="simulacion/usuario/usuario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulacion/usuario/usuario.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

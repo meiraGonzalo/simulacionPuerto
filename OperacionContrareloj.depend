@@ -1,0 +1,147 @@
+# depslib dependency file v1.0
+1789768874 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu/menu.h"
+	"simulacion/simulacion.h"
+	"ranking/ranking.h"
+
+1789662407 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\menu\menu.h
+
+1789766310 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\menu\menu.c
+	"menu.h"
+	<stdio.h>
+	<stdlib.h>
+
+1789767444 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\simulacion.c
+	"simulacion.h"
+
+1789765489 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\simulacion.h
+	"entidades/entidades.h"
+	"configuracion/configuracion.h"
+	"escenario/escenario.h"
+	"usuario/usuario.h"
+	"ProcesosAutomaticos/automatico.h"
+	"funciones/funciones.h"
+	"operaciones/operaciones.h"
+	<ctype.h>
+
+1789436637 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\configuracion\configuracion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"configuracion.h"
+
+1789436637 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\configuracion\configuracion.h
+
+1789415642 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\bibliotecas\tdapila.c
+	"tdaPila.h"
+
+1789413451 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\bibliotecas\tdapila.h
+	<stdlib.h>
+	<string.h>
+	"nodo.h"
+
+1789411530 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\bibliotecas\nodo.h
+
+1789416712 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\bibliotecas\tdacola.c
+	"tdaCola.h"
+
+1789754300 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\entidades\entidades.h
+	"../bibliotecas/tdaPila.h"
+	"../bibliotecas/tdaCola.h"
+	"../bibliotecas/tdaLista.h"
+	"../bibliotecas/tdaVector.h"
+	"../bibliotecas/tdaArbol.h"
+
+1789415238 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\bibliotecas\tdacola.h
+	"nodo.h"
+	<stdlib.h>
+	<string.h>
+
+1789679987 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\bibliotecas\tdalista.c
+	"tdaLista.h"
+
+1789679987 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\bibliotecas\tdalista.h
+	"nodo.h"
+	<stdlib.h>
+	<string.h>
+
+1789494218 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\estado\estado.h
+	"../configuracion/configuracion.h"
+	"../entidades/entidades.h"
+	<stdlib.h>
+	<stdio.h>
+
+1789491883 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\estado\estado.c
+	"estado.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1789503352 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\escenario\escenario.h
+	"../configuracion/configuracion.h"
+	"../entidades/entidades.h"
+	<stdlib.h>
+	<stdio.h>
+
+1789766915 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\escenario\escenario.c
+	"escenario.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1789753568 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\bibliotecas\tdavector.c
+	"tdaVector.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1789753568 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\bibliotecas\tdavector.h
+
+1789769741 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\usuario\usuario.c
+	"usuario.h"
+	<stdio.h>
+	<ctype.h>
+
+1789767444 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\usuario\usuario.h
+	"../entidades/entidades.h"
+	"../simulacion.h"
+
+1789687683 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\procesosautomaticos\automatico.h
+	"../simulacion.h"
+
+1789692667 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\procesosautomaticos\automatico.c
+	"automatico.h"
+
+1789687882 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\funciones\funciones.h
+	"../simulacion.h"
+
+1789690577 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\funciones\funciones.c
+	"funciones.h"
+
+1789768481 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\operaciones\operaciones.h
+	"../simulacion.h"
+
+1789768481 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\operaciones\operaciones.c
+	"operaciones.h"
+
+1789770314 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\bibliotecas\tdaarbol.c
+	"tdaArbol.h"
+
+1789752485 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\simulacion\bibliotecas\tdaarbol.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1789766310 c:\users\gonmd\onedrive\desktop\operacioncontrareloj\ranking\ranking.h
+	"../simulacion/bibliotecas/tdaVector.h"
+	"../simulacion/entidades/entidades.h"
+
+1789770464 source:c:\users\gonmd\onedrive\desktop\operacioncontrareloj\ranking\ranking.c
+	"ranking.h"
+	"../simulacion/simulacion.h"
+
